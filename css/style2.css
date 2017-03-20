@@ -1,0 +1,884 @@
+.header
+{	
+	width:1345px;
+	height:46px;
+	background-color:#ddd;
+	border:1px solid #bfbfbf;
+}
+.login
+{
+	color:#666;
+}
+ul
+ {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+	color:black
+}
+
+li
+ {
+    float: left;
+}
+
+li a
+ {
+    display: inline-block;
+    color: #666;
+	font-weight:bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-right:1px solid #bfbfbf;
+}
+
+li a:hover
+ {
+    background-color: ;
+	color:red;
+	overflow:hidden;
+}
+body {
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.content2 {
+	width: 900px;
+	height: 400px;
+}
+.content4 {
+	width: 900px;
+	height: 1450px;
+}
+.content5 {
+	width: 900px;
+	height: 850px;
+	padding:5px;
+}
+.contact1 {
+	width: 410px;
+	height:410px;
+	float: left;
+	margin: 5px;
+}
+.contact2 {
+	width: 400px;
+	height: 400px;
+}
+.dropbtn 
+{
+    background-color: #f2f2f2	;
+    color:black;
+    padding: 28px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdownContainer
+{
+	width:1345px;
+	z-index:1;
+	max-height:100px;
+	padding-top:10px;
+	border-bottom:1px solid #bfbfbf;
+	background-color:#f2f2f2;
+	padding-bottom:2px
+}
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+	z-index:1;
+}
+
+.dropdown-content 
+{
+	z-index:1;
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a
+ {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+	
+.dropdown-content a:hover
+ {
+	 background-color:  #ddd;
+	 border-bottom:2px solid #444;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+	
+}
+
+.dropdown:hover .dropbtn 
+{
+   
+	border-bottom:2px solid #111;
+}
+
+.notificationBar
+{
+	width:1355px;
+	height:50px;
+	background-color:#f2f2f2;
+	margin-top:0px;
+}
+.input
+{
+	width:200px;
+	height:10px;
+	padding:15px;
+	border:1px solid #999;
+	border-radius:5px;
+	margin-left:150px;
+	background-color:f2f2f2;
+}
+.notificationBar
+{
+	width:1345px;
+	height :45px;
+	background: linear-gradient(#f1f1f1, #f2f2f2);
+	padding-top:23px;
+}
+.img_container
+{
+	width:1355px;
+	height:580px;
+	background-color:#f1f1f1;
+	margin-top:50px
+}
+.heading
+{
+	width:260px;
+	height:40px;
+	margin-left:540px;
+	padding:20px 10px;
+	cursor:pointer;
+}
+.img1
+{
+	width:270px;
+	float:left;
+	margin-left:235px;	
+	height:400px;
+	background-color:#f1f1f1;
+}
+.subimg1
+{
+	width:270px;	
+	height:200px;
+	background-color:#f1f1f1;
+	box-shadow: 6px 8px 15px -2px #999;
+}
+.subimgdiv
+{
+	width:270px;
+	height:10px;
+	background-color:#d9d9d9;
+	margin-top:40px;
+	cursor:pointer;
+}
+.img2
+{
+	width:270px;
+	float:left;
+	margin-left:35px;	
+	height:400px;
+	background-color:#f1f1f1;
+}
+.subimg2
+{
+	width:270px;	
+	height:200px;
+	background-color:#f1f1f1;
+	box-shadow: 6px 8px 15px -2px #999;
+}
+.img3
+{
+	width:270px;
+	float:left;
+	margin-left:35px;	
+	height:400px;
+	background-color:#f1f1f1;
+}
+.subimg3
+{
+	width:270px;	
+	height:200px;
+	background-color:grey;
+	box-shadow: 6px 8px 15px -2px #999;
+}
+#hover:hover
+{
+	color:red;
+}
+.img1:hover .subimgdiv
+{
+	background-color:#444;
+}
+.img2:hover .subimgdiv
+{
+	color:red;
+	background-color:#444;
+}
+.img3:hover .subimgdiv
+{
+	color:red;
+	background-color:#444;
+}
+.jacket_container
+{
+	width:1355px;
+	height:650px;
+	background-color:#f2f2f2;
+}
+.jacket_container_title
+{
+	cursor:pointer;
+	width:455px;
+	height:90px;
+	padding-top:10px;
+	font-size:35px;
+	font-weight:bold;
+	margin-left:450px;
+	background-color:#f2f2f2;
+}
+.jacket_container_div
+{
+	width:270px;
+	height:500px;
+	background-color:#f2f2f2;
+	float:left;
+	margin-left:230px;
+	overflow:hidden;
+}
+.jacket_container_img1
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/jacket/jacket1.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition: height 1s;
+}
+.jacket_container_img1:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+
+.jacket_container_footer
+{
+	color:#fff;
+	padding-top:13px;
+	width:270px;
+	font-size:20px;
+	height:37px;
+	background-color:#111;
+	float:left;
+	margin-top:50px;
+	border-radius:3px;
+}
+.jacket_container_div2
+{
+	width:270px;
+	height:500px;
+	background-color:#f2f2f2;
+	float:left;
+	margin-left:30px;
+	overflow:hidden;
+}
+.jacket_container_img2
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/jacket/jacket2.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img2:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_footer2
+{
+	color:#fff;
+	padding-top:13px;
+	width:270px;
+	font-size:20px;
+	height:37px;
+	background-color:#111;
+	float:left;
+	margin-top:50px;
+	border-radius:3px;
+}
+
+.jacket_container_div3
+{
+	width:270px;
+	height:500px;
+	background-color:#f2f2f2;
+	float:left;
+	margin-left:30px;
+	overflow:hidden;
+}
+.jacket_container_img3
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/jacket/jacket3.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+
+}
+.jacket_container_img3:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img4
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/hoodies/hood1.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img4:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img5
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/hoodies/hood2.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img5:hover
+{
+	width:270px;
+	height:415px;	
+}
+.jacket_container_img6
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/hoodies/hood3.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img6:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img7
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/t-shirts/t1.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img7:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img8
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/t-shirts/t2.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img8:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img9
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/t-shirts/t3.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img9:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img10
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/pents/pent1.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img10:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img11
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/pents/pent2.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img11:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img12
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/pents/pent3.jpeg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img12:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img13
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/accessories/a1.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img13:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img14
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/accessories/a2.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img14:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img15
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/accessories/a3.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img15:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img16
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/socks/sock1.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img16:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img17
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/socks/sock2.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img17:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_img18
+{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:left;
+	background-position:center;
+	background-size:cover;
+	background-image:url(images/socks/sock3.jpg);
+	box-shadow:0px 10px 15px 0px #999;
+	transition:height 1s;
+}
+.jacket_container_img18:hover
+{
+	width:270px;
+	height:415px;	
+}
+
+.jacket_container_footer3
+{
+	color:#fff;
+	padding-top:13px;
+	width:270px;
+	font-size:20px;
+	height:37px;
+	background-color:#111;
+	float:left;
+	margin-top:50px;
+	border-radius:3px;
+}
+.whole_text_container
+{
+	width:1355;
+	height:200px;
+	background-color:#f2f2f2
+}
+.ratingdiv {
+	margin-top: 50px;
+	margin-left:20px;
+}
+.text_container
+{
+	width:270px;
+	height:200px;
+	float:left;
+	margin-left:230px;
+	background-color:#f2f2f2;
+}
+.text_container2
+{
+	width:270px;
+	height:200px;
+	float:left;
+	margin-left:30px;
+	background-color:#f2f2f2;
+}
+.text_footer
+{
+	width:270px;
+	height:12px;
+	margin-top:20px;
+	background-color:#ddd;
+	cursor:pointer;
+}
+.text_container2:hover .text_footer{
+	background-color:#111;
+}
+.text_container:hover .text_footer{
+	background-color:#111;
+}
+.footer
+{
+	width:1355px;
+	height:300px;
+	background-color:#0f0f0f;
+	padding-top:80px;	
+	float:left;
+}
+.f_content1
+{
+	width:200px;
+	height:auto;
+	float:left;
+	margin-left:240px;
+}
+.f_content1_span
+{
+	font-size:13px;
+	font-weight:bold;
+	color:#b6bfc8;
+	opacity:0.8;
+	cursor:pointer
+}
+.f_content2
+{
+	width:200px;
+	height:auto;
+	float:left;
+	margin-left:70px;
+}
+.f_content2_span
+{
+	font-size:17px;
+	color:white;
+	font-weight:bold;
+	opacity:0.9;
+	cursor:pointer;
+}
+.f_content2_span1
+{
+	font-size:13px;
+	color:#b3b3b3;
+	opacity:0.8;
+	cursor:pointer;
+}
+.f_content3
+{
+	width:200px;
+	height:autopx;
+	float:left;
+	margin-left:40px;
+}
+.f_content3_span
+{
+	font-weight:bold;
+	color:white;
+	opacity:0.9;
+	cursor:pointer;
+}
+.f_content3_span1
+{
+	font-size:12px;
+	color:#b3b3b3;
+	opacity:0.8;
+	cursor:pointer;
+}
+.f_content4
+{
+	width:200px;
+	height:autopx;
+	float:left;
+	margin-left:30px;
+}
+.f_content4_span
+{
+	font-weight:bold;
+	color:white;
+	opacity:0.9;
+	cursor:pointer;	
+}
+.f_content4_img1
+{
+	float:left;
+	width:30px;
+	height:30px;
+	background-color:#444;
+	border-radius:50%;
+	background-image:url(./img/icons/f.png);
+	background-size:15px 15px;
+	background-repeat:no-repeat;
+	background-position: center;
+	cursor:pointer;
+}
+.f_content4_img2
+{
+	float:left;
+	width:30px;
+	height:30px;
+	background-color:#444;
+	border-radius:50%;
+	margin-left:5px;
+	cursor:pointer;
+	background-image:url(./img/icons/y.png);
+	background-size:15px 15px;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.f_content4_img3
+{
+	float:left;
+	width:30px;
+	height:30px;
+	background-color:#444;
+	border-radius:50%;
+	margin-left:5px;
+	cursor:pointer;
+	background-image:url(./img/icons/t.png);
+	background-size:15px 15px;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.f_content4_img4
+{
+	float:left;
+	width:30px;
+	height:30px;
+	background-color:#444;
+	border-radius:50%;
+	margin-left:5px;
+	cursor:pointer;
+	background-image:url(./img/icons/i.png);
+	background-size:15px 15px;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.f_australia
+{
+	margin-top:15px;
+	margin-left:15px;
+	font-size:14px;
+	cursor:pointer;
+	float:left;
+	color:#999;
+}
+.f_guide
+{
+	float:right;
+	cursor:pointer;
+	margin-right:20px;
+	margin-top:15px;
+	color:#999;
+	font-size:15px;
+}
+.f_term
+{
+	float:right;
+	cursor:pointer;
+	margin-right:20px;
+	margin-top:15px;
+	color:#999;
+	font-size:15px;
+}
+.f_policy
+{
+	float:right;
+	cursor:pointer;
+	margin-right:20px;
+	margin-top:15px;
+	color:#999;
+	font-size:15px;
+}
+#f_text_hover:hover{
+	color:#1F85A3;
+}
+#f_hover:hover 
+{
+	color:#991f00;
+	background-color:#1F85A3;
+}
+#f_white:hover
+{
+	color:white;
+}
+#red:hover
+{
+	background-color: #C2000D;
+}
+#blue:hover
+{
+	background-color:#2626FF;
+}
+#ins:hover
+{
+	background-color:#8A2E1A;
+}

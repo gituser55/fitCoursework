@@ -1,5 +1,3 @@
-# fitCoursework
-
 This website is for educational purposes.
 It is a fictional business, names and refrences used are also fictional.
 
