@@ -26,3 +26,4 @@ Details about requirememnts:
     jquery			(index.html)
 
 
+PS: Topic was changed from shoes and footwear to traveling, so you may find naming conventions related to footwear.
